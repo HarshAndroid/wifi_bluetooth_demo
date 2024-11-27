@@ -242,7 +242,8 @@ class BleScanManager(boss: Boss) : ActionManager(boss) {
 
     boss.espManager.searchBleEspDevices(prefix, object : BleScanListener {
       override fun scanStartFailed() {
-        TODO("Not yet implemented")
+        // TODO("Not yet implemented")
+        ctx.result.success(ArrayList<String>())
       }
 
       override fun onPeripheralFound(device: BluetoothDevice?, scanResult: ScanResult?) {
@@ -257,7 +258,8 @@ class BleScanManager(boss: Boss) : ActionManager(boss) {
       }
 
       override fun onFailure(e: java.lang.Exception?) {
-        TODO("Not yet implemented")
+        // TODO("Not yet implemented")
+        ctx.result.success(ArrayList<String>())
       }
 
     })

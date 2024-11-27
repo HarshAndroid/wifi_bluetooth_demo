@@ -10,10 +10,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-  # flutter_esp_ble_prov:
-  #   path: ./flutter_esp_ble_prov
-  esp_provisioning_wifi: 
-    path: ./esp_provisioning_wifi  
+  flutter_esp_ble_prov:
+    path: ./flutter_esp_ble_prov
+  # esp_provisioning_wifi: 
+  #   path: ./esp_provisioning_wifi  
 
 dev_dependencies:
   flutter_test:
